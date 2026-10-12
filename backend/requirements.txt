@@ -1,0 +1,9 @@
+# --- runtime (стек из ТЗ) ---
+aiogram==3.31.0
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+sqlalchemy[asyncio]==2.1.1
+alembic==1.20.0
+asyncpg==0.31.0          # async-драйвер PostgreSQL для SQLAlchemy
+cryptography==50.0.1     # Fernet для шифрования токенов
+python-multipart==0.0.32 # приём файлов (фото товаров) в FastAPI — согласовано на этапе 4
